@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 import {
     BREAKPOINTS, COLORS, FONT_FAMILY, FONT_SIZE, LINE_HEIGHT, SPACING, ZINDEX,
-} from './core/theme/vars';
+} from './src/theme/vars';
 
 const plugin = require('tailwindcss/plugin');
 
@@ -41,7 +41,7 @@ module.exports = {
                     badge: COLORS.badge,
                 },
                 // END store config value
-                primary: COLORS.primary,
+                primary: COLORS.blue,
                 secondary: COLORS.secondary,
                 neutral: COLORS.neutral,
             },
